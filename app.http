@@ -1,0 +1,21 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name": "vinoth",
+    "email": "vinothgopal@gmail.com",
+    "password": "luckstar@345"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "vinothgopal@gmail.com",
+    "password": "luckstar@345"
+}
+
+###
+GET http://localhost:3000/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZpbm90aGdvcGFsQGdtYWlsLmNvbSIsImlhdCI6MTcyMTMwNDE1OH0.zWM4P1kYEIAa5otGhMasRQ50pLSlsYyH8FMB8vgq08Q
