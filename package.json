@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "rm -rf node_modules/bcrypt node_modules/sqlite3 && npm install bcrypt sqlite3"
+    "postinstall": "npm install --unsafe-perm bcrypt sqlite3"
   },
   "keywords": [],
   "author": "",
