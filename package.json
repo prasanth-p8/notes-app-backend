@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm rebuild sqlite3"
+    "postinstall": "npm rebuild bcrypt && npm rebuild sqlite3"
   },
   "keywords": [],
   "author": "",
