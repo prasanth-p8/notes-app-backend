@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm rebuild bcrypt && npm rebuild sqlite3"
+    "postinstall": "rm -rf node_modules/bcrypt node_modules/sqlite3 && npm install bcrypt sqlite3"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +20,6 @@
     "sqlite3": "^5.1.7"
   },
   "engines": {
-    "node": "20.15.1"
+     "node": "16.x"
   }
 }
